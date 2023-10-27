@@ -666,6 +666,9 @@ line-height: 1;
   }
   /* -------------------- second media for only max-width for tablet ------ */
   @media (max-width: 995px){
+    .container-5{
+               height: 100%;
+           }
     .about-content h2{
         font-size: 1.7rem;
            }
