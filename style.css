@@ -666,9 +666,7 @@ line-height: 1;
   }
   /* -------------------- second media for only max-width for tablet ------ */
   @media (max-width: 995px){
-   .container{
-    height: 100%;
-   }
+
    .container-2{
     height: 100%;
    } 
