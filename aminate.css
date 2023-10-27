@@ -2,8 +2,8 @@
 #to-top {
     display: none;
     position: fixed;
-    bottom: 20px;
-    right: 30px;
+    bottom: 10px;
+    right: 40px;
     z-index: 99;
     font-size: 2rem;
     border: none;
@@ -80,4 +80,15 @@
 .animate__animated.animate__fadeInUp {
     --animate-duration: 2.5s;
     animation-iteration-count: infinite;
+  }
+
+
+  @media screen and (max-width:992px) {
+    #to-top {
+       padding: 0;
+        background:  linear-gradient(180deg,rgba(0, 0, 255, 0.801),rgba(240, 5, 44, 0.808));;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+      
   }
