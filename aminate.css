@@ -1,0 +1,83 @@
+/* ------------------- to top button --------------------- */
+#to-top {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 2rem;
+    border: none;
+    outline: none;
+    background:  linear-gradient(180deg,rgba(0, 0, 255, 0.801),rgba(240, 5, 44, 0.808));;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+  }
+  
+  #to-top:hover {
+    background-color: #555;
+  }
+
+
+
+.animate{
+     position: relative;
+    animation-name: animate;
+    animation-duration: 4s;
+    position: relative;
+    animation-iteration-count: infinite;
+    transition: all 1s ease-in;
+}
+@keyframes  animate {
+    from{
+       transform: scale(1);
+       transition: all 1s ease-in;
+    }
+    to {
+        transform: scale(1.05);
+        transition: all 2s ease-in;
+    }
+       
+    
+}
+.aminate-2{
+        position: relative;
+    animation-name: animate-2;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    transition: all 1s ease-in;
+}
+@keyframes animate-2 {
+    0%{
+        color: #555;
+    }
+    50%{
+        color: black;
+    }
+    75%{
+        color: red; 
+    }
+    100%{
+        color: blueviolet;
+    }
+}
+.reveal{
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: all 2s ease-in ;
+}
+.reveal, .active{
+    transform: translateY(0px);
+    opacity: 1;
+   }
+
+.animate__animated.animate__fadeInLeft{
+    animation-iteration-count: 2;
+    --animate-duration: 3s;
+}
+.animate__animated.animate__fadeInUp {
+    --animate-duration: 2.5s;
+    animation-iteration-count: infinite;
+  }

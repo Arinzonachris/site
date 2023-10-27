@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <!-- css aminate  -->
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+  <!-- aminate css -->
+  <link rel="stylesheet" href="./aminate.css">
+    <title>Arins</title>
+</head>
+<body>
+
+
+
+<!-- --------------- to top button -------------- -->
+<button onclick="topFunction()" id="to-top" title="Go to top"><i class="fa-solid fa-arrow-up"></i></button>
+
+<!-- ------------------------- navbar section ----------------------------->
+<div class="nav-container">
+  <nav>
+  <a href="#">  <img src="./img/logo.PNG" alt="" class="logo"></a>
+    <ul id="sidemenu">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#service">Service</a></li>
+      <li><a href="#portfolio">Portfolio</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <i class="fa-solid fa-times" onclick="closemenu()"></i>
+    </ul>
+    <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+  </nav>
+</div>
+
+
+    <!--------------- home style starts -------------------------->
+<div class="container  reveal" id="home">
+   <div class="header">
+    <h2  class="animate__animated animate__fadeInLeft ">Welcome to our Arins page</h2>
+    <p class="animate__animated animate__fadeInUp">Website designs and Creation of Splendid Graphics design</p>
+         <button type="button" class="animate"><a href="./img/cv.pdf">View CV </a></button>
+   </div>
+</div>
+ <!--------------- home style ends -------------------------->
+<!-- ------------------------ About page starts --------------------------->
+<div class="sections-header" id="about">About Us</div>
+<div class="container-2">
+
+<!-- 1 -->
+<div class="about-content">
+<h2 class="aminate-2">I'm a  Frontend developer and Graphic Designer</h2>
+<p>
+  With two years of hands-on experience in the ever-evolving worlds of web development 
+  and graphic design, I am dedicated to crafting visually stunning, user-centric, and 
+  technically robust websites. My work seamlessly blends aesthetics and functionality, 
+  ensuring that every project engages and captivates users.
+</p>
+<button type="button">Let's Connect</button>
+</div>
+<!-- 2 -->
+<div class="about-image animate" >
+<img src="./img/about-image.jpg" alt="">
+</div>
+</div>
+<!-- ------------------------ About page ends --------------------------->
+<!-- ------------------------ Service page starts --------------------------->
+<div class="sections-header" id="service">Services & Skills</div>
+<!-- ------------------------ Service page ends --------------------------->
+       
+<div class="row  reveal">
+  <div class="column">
+   
+    <h2><i class="fa-solid fa-laptop"></i>Graphic Desigin</h2>
+    <p>
+      Skilled in using industry-standard design tools,such as Adobe Creative Suite (Photoshop,Coreldraw, Illustrator).
+    
+      Ability to create visually appealing assets, including logos, icons, illustrations, and banners.
+    </p>
+        <div class="stars">
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+        </div>
+  </div>
+  
+  <div class="column" >
+    <h2> <i class="fa-solid fa-code"></i>  Website Design</h2>
+    <p>
+      Proficient in HTML5, CSS3, and JavaScript, with a strong emphasis on responsive design and cross-browser compatibility.
+    </br>
+     Experience with modern web frameworks and libraries like React and  Bootstrap.
+    </p>
+        <div class="stars">
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star-half-stroke"></i>
+          <i class="fa-solid fa-star-half-stroke"></i>
+        </div>
+  </div>
+  
+  <div class="column" >
+    <h2><i class="fa-solid fa-pen"></i> Photo Editing</h2>
+    <p>
+      Every bit counts. I make sure that every picture is expertly edited .</br> I work hard with you to understand your vision and requirements in order to provide customized editing solutions. choices, listener.
+    </p>
+        <div class="stars">
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star-half-stroke"></i>
+        </div>
+  </div>
+  </div>
+    <!-- ------------------------ portiforlio page starts --------------------------->
+<div class="sections-header" id="portfolio">portfolio</div>
+<p class="portfolio-para">Here are some examples of my recent work:</p>
+ <!-- Swiper -->
+<div class="container-4">
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+                        <img src="./img/graphix10.jpg" class="img" id="img01">
+                    </div>
+          <div class="swiper-slide">
+            <img src="./img/graphix2.PNG" class="img">
+          </div>
+          <div class="swiper-slide">
+            <img src="./img/graphix3.PNG" class="img">
+          </div>
+          <div class="swiper-slide">
+            <img src="./img/graphix4.PNG" class="img">
+          </div>
+          <div class="swiper-slide">
+            <img src="./img/graphix5.PNG" class="img">
+          </div>
+                           </div>
+        <div class="swiper-pagination"></div>
+      </div>
+</div>
+<!--------------  section 2 -->
+<div class="container-4">
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+                   <div class="swiper-slide">
+            <img src="./img/graphix6.PNG" class="img">
+          </div>
+          <div class="swiper-slide">
+            <img src="./img/graphix1.PNG" class="img">
+          </div>
+          <div class="swiper-slide">
+            <img src="./img/graphix7.PNG" class="img">
+          </div>
+          <!-- <div class="swiper-slide">
+            <img src="./img/graphix8.PNG" class="img">
+          </div> -->
+          <div class="swiper-slide">
+            <img src="./img/graphix9.jpg" class="img">
+          </div>
+                          </div>
+        <div class="swiper-pagination" style="color: orange;"></div>
+      </div>
+</div>
+
+
+<!-- ------------------------ portiforlio page ends --------------------------->
+
+   <!-- ------------------------ Contacts page starts --------------------------->
+   <div class="sections-header" id="contact">Contact</div>
+<div class="container-5">
+    <div class="contact-image">
+        <img src="./img/contact-img.svg" alt="" srcset="">
+    </div>
+    <div class="contact-form">
+                <form name="submit-to-google-sheet">
+            <h1>Get in Touch</h1>
+    <div class="sub-sec">
+        <input type="text" name="First_name" placeholder="First Name ..">
+    <input type="text" name="Last_name" placeholder="Last Name ..">
+    </div>
+    <!-- 2 -->
+    <div class="sub-sec">
+        <input type="email" name="Email" placeholder="Email ..">
+    <input type="number" name="Phone" placeholder="Phone NO ..">
+    </div>
+   <div class="message-sec">
+    <textarea name="Message" id="" cols="30" rows="10" placeholder="Message..." ></textarea>
+   </div>
+    <input type="submit" class="submit" value="Submit">
+        </form>
+        <span id="msg" style="color: white;"></span>
+    </div>
+</div>
+
+<!-- --------------------- footer section -------------------------------->
+<div class="footer">
+    <div class="logo"><a href="#"> <a href="#">  <img src="./img/logo.PNG" alt="" class="logo"></a> </div>
+    <div class="social-icons">
+       <a href="https://web.facebook.com/Arinsgraphix"> <i class="fa-brands fa-facebook"></i></a>
+        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+              <a href="https://www.instagram.com/arins_digital/">  <i class="fa-brands fa-instagram"></i></a>
+    </div>
+    </div>
+    <div class="copyright">&copy;2023.All rights reservered.</div>
+    <!-- ------------------------ Contacts page ends --------------------------->
+<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+    <script src="./app.js"></script>
+    
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbx_Op_b3Cscc0GvSdpGqyu_ck4qnlGvD0jmn4pZcrVqgRY09-pp17ymHP2f7dUE8QrdUQ/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg = document.getElementById('msg');
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        msg.innerHTML ="Message sent successfully";
+        setTimeout(function() {
+          msg.innerHTML =" ";
+        }, 5000)
+        form.reset;
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+
+<!-- ----------------- whatsapp widget -->
+<script>!function(){var e,t,n,a;window.MyAliceWebChat||((t=document.createElement("div")).id="myAliceWebChat",(n=document.createElement("script")).type="text/javascript",n.async=!0,n.src="https://widget.myalice.ai/index.js",(a=(e=document.body.getElementsByTagName("script"))[e.length-1]).parentNode.insertBefore(n,a),a.parentNode.insertBefore(t,a),n.addEventListener("load",(function(){MyAliceWebChat.init({selector:"myAliceWebChat",number:"09127644627",message:"",color:"#25d366",channel:"wa",boxShadow:"none",text:"",theme:"light",position:"left",mb:"30px",mx:"30px",radius:"30px"})})))}();</script>
+
+
+</body>
+</html>
