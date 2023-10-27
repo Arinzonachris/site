@@ -26,7 +26,7 @@ body {
 .nav-container{
     width: 80%;
     max-width: 100%;
-  z-index: 1;
+  z-index: 4;
  position: fixed;
     padding: 10px 10%;
     background-color: black;
