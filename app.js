@@ -16,6 +16,14 @@ var swiper = new Swiper(".mySwiper", {
     spaceBetween: 25,
     freeMode: true,
     fada:'true',
+    autoplay: {
+      delay: 1500,
+      disableOnInteraction: false
+    },
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev"
+    },
     loop:true,
     centerSlide:'true',
     grabCursor:true,
@@ -27,6 +35,9 @@ var swiper = new Swiper(".mySwiper", {
     breakpoints: {
 0: {
     slidesPerView: 1,
+    slidesPerView: 1,
+    spaceBetween: 0,
+
 },
 520: {
     slidesPerView: 2,
