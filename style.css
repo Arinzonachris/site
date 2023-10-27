@@ -24,18 +24,24 @@ body {
 
 /* ------------------------- navbar section ---------------------------- */
 .nav-container{
+    width: 80%;
+    max-width: 100%;
+  z-index: 1;
+ position: fixed;
     padding: 10px 10%;
     background-color: black;
+    
 }
 nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+     
 }
  .logo{
     width: 90px;
     max-width: 100%;
-}
+    }
 nav ul li{
     display: inline-block;
     list-style: none;
