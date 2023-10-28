@@ -6,7 +6,9 @@ function openmenu() {
 }
 function closemenu() {
   sidemenu.style.right = "-250px"; 
- }
+
+   }
+
 
 
 // -------------------- swiper js ------------------------
