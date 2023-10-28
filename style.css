@@ -334,9 +334,13 @@ background-attachment: fixed;
        font-size: 1rem;
         text-align: center;
     }
-    
+    .swiper-slide{
+        max-width: 100%;
+        width: 100%;
+    }
     .swiper-slide img {
-        width: 100% !important;
+        width: 200% !important;
+        max-width: 100%;
         max-height: 100%;
                margin: .5rem;
         }
