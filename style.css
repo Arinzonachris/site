@@ -714,7 +714,7 @@ line-height: 1;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(90deg, rgba(0, 0, 0, 0.582),rgba(0, 0, 0, 0)), url("./img/home-img.jpg");
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.781),rgba(0, 0, 0, 0.719)), url("./img/home-img.jpg");
 background-repeat: no-repeat;
 background-position: center;
 background-size: cover;
