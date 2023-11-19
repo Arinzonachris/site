@@ -63,7 +63,9 @@
 
 <!-- 1 -->
 <div class="about-content">
-<h2 class="aminate-2">I'm a  Frontend developer and Graphic Designer</h2>
+  <div class="typing-section">
+    <h2 id="text" class="aminate-2"></h2>
+  </div>
 <p>
   With two years of hands-on experience in the ever-evolving worlds of web development 
   and graphic design, I am dedicated to crafting visually stunning, user-centric, and 
@@ -234,29 +236,6 @@
 <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
 
     <script src="./app.js"></script>
-    
-<script>
-  const scriptURL = 'https://script.google.com/macros/s/AKfycbx_Op_b3Cscc0GvSdpGqyu_ck4qnlGvD0jmn4pZcrVqgRY09-pp17ymHP2f7dUE8QrdUQ/exec'
-  const form = document.forms['submit-to-google-sheet']
-  const msg = document.getElementById('msg');
-
-  form.addEventListener('submit', e => {
-    e.preventDefault()
-    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-      .then(response => {
-        msg.innerHTML ="Message sent successfully";
-        setTimeout(function() {
-          msg.innerHTML =" ";
-        }, 5000)
-        form.reset;
-      })
-      .catch(error => console.error('Error!', error.message))
-  })
-</script>
-
-<!-- ----------------- whatsapp widget -->
-<script>!function(){var e,t,n,a;window.MyAliceWebChat||((t=document.createElement("div")).id="myAliceWebChat",(n=document.createElement("script")).type="text/javascript",n.async=!0,n.src="https://widget.myalice.ai/index.js",(a=(e=document.body.getElementsByTagName("script"))[e.length-1]).parentNode.insertBefore(n,a),a.parentNode.insertBefore(t,a),n.addEventListener("load",(function(){MyAliceWebChat.init({selector:"myAliceWebChat",number:"08147373520",message:"",color:"#25d366",channel:"wa",boxShadow:"none",text:"",theme:"light",position:"left",mb:"30px",mx:"30px",radius:"30px"})})))}();</script>
-
-
+  
 </body>
 </html>

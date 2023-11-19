@@ -9,8 +9,43 @@ function closemenu() {
 
    }
 
+// --------------- typing amination ------------
+   const textElement = document.getElementById('text');
+const texts = ['Hello there!', "I'm a web designer", 'Graphic Designer', 'Photo Editor '];
+let index = 0;
+let letterIndex = 0;
+let currentText = '';
+let isDeleting = false;
 
+function type() {
+  currentText = texts[index];
+  if (isDeleting) {
+    textElement.textContent = currentText.substring(0, letterIndex - 1);
+    letterIndex--;
+  } else {
+    textElement.textContent = currentText.substring(0, letterIndex + 1);
+    letterIndex++;
+  }
 
+  const typingSpeed = 100; // Adjust the typing speed here
+
+  if (!isDeleting && letterIndex === currentText.length) {
+    isDeleting = true;
+    setTimeout(type, typingSpeed * 2);
+  } else if (isDeleting && letterIndex === 0) {
+    isDeleting = false;
+    index++;
+    if (index === texts.length) {
+      index = 0;
+    }
+    setTimeout(type, typingSpeed);
+  } else {
+    setTimeout(type, typingSpeed);
+  }
+}
+
+// Start the typing animation
+type();
 // -------------------- swiper js ------------------------
 
 var swiper = new Swiper(".mySwiper", {

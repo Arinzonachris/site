@@ -24,5 +24,59 @@
         </div>
     </div>
     </header>
+
+    <section>
+        <div class="typing-section">
+            <p id="text"></p>
+          </div>
+          
+   <style>
+    .typing-section {
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  width: 80%;
+  margin: 20px auto;
+}
+   </style>
+   <script>
+    const textElement = document.getElementById('text');
+const texts = ['Hello there!', 'Welcome to the typing animation.', 'This is an example.', 'Enjoy learning!'];
+let index = 0;
+let letterIndex = 0;
+let currentText = '';
+let isDeleting = false;
+
+function type() {
+  currentText = texts[index];
+  if (isDeleting) {
+    textElement.textContent = currentText.substring(0, letterIndex - 1);
+    letterIndex--;
+  } else {
+    textElement.textContent = currentText.substring(0, letterIndex + 1);
+    letterIndex++;
+  }
+
+  const typingSpeed = 100; // Adjust the typing speed here
+
+  if (!isDeleting && letterIndex === currentText.length) {
+    isDeleting = true;
+    setTimeout(type, typingSpeed * 2);
+  } else if (isDeleting && letterIndex === 0) {
+    isDeleting = false;
+    index++;
+    if (index === texts.length) {
+      index = 0;
+    }
+    setTimeout(type, typingSpeed);
+  } else {
+    setTimeout(type, typingSpeed);
+  }
+}
+
+// Start the typing animation
+type();
+   </script>
 </body>
 </html>

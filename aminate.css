@@ -45,9 +45,10 @@
         position: relative;
     animation-name: animate-2;
     animation-duration: 5s;
+   
     animation-iteration-count: infinite;
     transition: all 1s ease-in;
-}
+  }
 @keyframes animate-2 {
     0%{
         color: #555;
@@ -62,6 +63,7 @@
         color: blueviolet;
     }
 }
+
 .reveal{
     position: relative;
     transform: translateY(150px);
