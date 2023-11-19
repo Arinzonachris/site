@@ -82,7 +82,7 @@ nav .fa-solid{
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(90deg, rgba(0, 0, 0, 0.582),rgba(0, 0, 0, 0.801)), url("./img/home-img.jpg");
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.582),rgba(0, 0, 0, 0)), url("./img/home.png");
 background-repeat: no-repeat;
 background-position: center;
 background-size: cover;
@@ -386,7 +386,7 @@ nav ul .fa-solid{
     max-width: 100%;
 }
 .port {
-    padding: 1rem 4rem 0 2rem;
+    padding: 1rem rem 0 2rem;
    
     /* background: grey; */
 }
@@ -706,6 +706,15 @@ line-height: 1;
   }
   /* -------------------- second media for only max-width for tablet ------ */
   @media (max-width: 995px){
+
+    .container{
+  
+        background: linear-gradient(to right, rgb(0, 0, 0),transparent), url("./img/Screenshot_20230105-204400-removebg-preview.png");
+    background-repeat: no-repeat;
+    background-size: center;
+    background-position: right;
+
+    }
 
    .container-2{
     height: 100%;
