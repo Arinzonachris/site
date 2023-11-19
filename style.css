@@ -82,7 +82,7 @@ nav .fa-solid{
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(90deg, rgba(0, 0, 0, 0.582),rgba(0, 0, 0, 0)), url("./img/home.png");
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.582),rgba(0, 0, 0, 0.267)), url("./img/home.png");
 background-repeat: no-repeat;
 background-position: center;
 background-size: cover;
