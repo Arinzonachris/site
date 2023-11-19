@@ -35,6 +35,7 @@ html{
     justify-content: space-between;
     align-items: center;
     padding: 1rem 3rem;
+    margin-bottom: 3rem;
     box-sizing: border-box;
 }
 .resume-right-content{
