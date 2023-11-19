@@ -64,6 +64,159 @@
     }
 }
 
+.main_pencentage{
+    position: relative;
+    animation-name: pencentage-skill;
+    animation-duration: 4s;
+    animation-direction: alternate;
+    animation-iteration-count: 4;
+    transition: all 1s ease-in;
+}
+@keyframes pencentage-skill {
+    from{
+        background: red;
+        width: 10%;
+    }
+    to{
+        background-color: green;
+        width: 90%;
+    }
+   
+}
+
+.main_pencentage-css{
+    position: relative;
+    animation-name: pencentage-skill-css;
+    animation-duration: 4s;
+    animation-direction: alternate;
+    animation-iteration-count: 4;
+    transition: all 1s ease-in;
+}
+@keyframes pencentage-skill-css {
+from{
+    background: red;
+    width: 10%;
+}
+to{
+    width: 85%;
+    background-color: blue;
+}
+}
+
+
+.main_pencentage-js{
+    position: relative;
+    animation-name: pencentage-skill-js;
+    animation-duration: 4s;
+    animation-direction: alternate;
+    animation-iteration-count: 4;
+    transition: all 1s ease-in;
+}
+@keyframes pencentage-skill-js {
+from{
+    background: red;
+    width: 10%;
+}
+to{
+    width: 65%;
+    background-color: orange;
+}
+}
+
+.main_pencentage-php{
+    position: relative;
+    animation-name: pencentage-skill-php;
+    animation-duration: 4s;
+    animation-direction: alternate;
+    animation-iteration-count: 4;
+    transition: all 1s ease-in;
+}
+@keyframes pencentage-skill-php {
+from{
+    background: red;
+    width: 10%;
+}
+to{
+    width: 60%;
+    background-color: orangered;
+}
+}
+
+.main_pencentage-corel{
+    position: relative;
+    animation-name: pencentage-skill-corel;
+    animation-duration: 4s;
+    animation-direction: alternate;
+    animation-iteration-count: 4;
+    transition: all 1s ease-in;
+}
+@keyframes pencentage-skill-corel {
+from{
+    background: red;
+    width: 10%;
+}
+to{
+    width: 75%;
+    background-color: navy;
+}
+}
+
+.main_pencentage-photo{
+    position: relative;
+    animation-name: pencentage-skill-photo;
+    animation-duration: 4s;
+    animation-direction: alternate;
+    animation-iteration-count: 4;
+    transition: all 1s ease-in;
+}
+@keyframes pencentage-skill-photo {
+from{
+    background: red;
+    width: 10%;
+}
+to{
+    width: 55%;
+    background-color: yellow;
+
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .reveal{
     position: relative;
     transform: translateY(150px);

@@ -16,6 +16,207 @@ html{
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+.container_resume{
+    width: 100%;
+    max-height: 100%;
+    /* background-color: grey; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 3rem;
+    box-sizing: border-box;
+}
+.resume-right-content{
+    width: 50%;
+    margin: 0 3rem 0 0;
+}
+.resume-skills{
+    
+    width: 100%;
+   
+}
+.resume-skills .content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .8rem .5rem;
+   }
+.main_pencentage{
+    width: 100%;
+    height: 10px;
+    background-color: rgba(255, 255, 255, 0.486);
+    border-radius: 10px;
+}
+.main_pencentage .main_pencentage{
+    width: 90%;
+    background-color: green;
+}
+.resume-skills .content .content-1{
+font-size: 1.3rem;
+font-weight: 800;
+}
+/* skills pencentages */
+/* for css */
+.main_pencentage-css{
+    width: 100%;
+    height: 10px;
+    background-color: rgba(255, 255, 255, 0.486);
+    border-radius: 10px;
+}
+.main_pencentage-css .main_pencentage-css{
+    width: 85%;
+    background-color: blue;
+}
+/* for js */
+.main_pencentage-js{
+    width: 100%;
+    height: 10px;
+    background-color: rgba(255, 255, 255, 0.486);
+    border-radius: 10px;
+}
+.main_pencentage-js .main_pencentage-js{
+    width: 65%;
+    background-color: orange;
+}
+
+/* for php */
+.main_pencentage-php{
+    width: 100%;
+    height: 10px;
+    background-color: rgba(255, 255, 255, 0.486);
+    border-radius: 10px;
+}
+.main_pencentage-php .main_pencentage-php{
+    width: 60%;
+    background-color: orangered;
+}
+
+/* for corel */
+.main_pencentage-corel{
+    width: 100%;
+    height: 10px;
+    background-color: rgba(255, 255, 255, 0.486);
+    border-radius: 10px;
+}
+.main_pencentage-corel .main_pencentage-corel{
+    width: 60%;
+    background-color: navy;
+}
+/* for photoshop */
+.main_pencentage-photo{
+    width: 100%;
+    height: 10px;
+    background-color: rgba(255, 255, 255, 0.486);
+    border-radius: 10px;
+}
+.main_pencentage-photo .main_pencentage-photo{
+    width: 55%;
+    background-color: yellow;
+}
+
+
+
+.resume-box{
+    background-color: whitesmoke;
+    border-left-style: groove;
+    border-left: 3px solid orangered ;
+      margin-bottom: 3rem;
+    margin-left: 3rem;
+    line-height: 1.5;
+  }
+  .resume-box .box-year{
+    font-size: 1rem;
+    font-weight: 900;
+    color: orangered;
+    padding: 1rem 2rem 0 1rem;
+  }
+  .resume-box .box-content{
+    font-size: 1.5rem;
+    font-weight: 900;
+    padding: 1rem 2rem .5rem 1rem;
+  }
+
+@media screen and (max-width:992px) {
+    .resume-content{
+        margin-right: 3.5rem;
+    }
+    .resume-box{
+               margin-bottom: 2rem;
+        margin-left: .5rem;
+        line-height: 1.1;
+      }
+      .resume-box .box-year{
+        font-size: .7rem;
+        font-weight: 900;
+        color: orangered;
+        padding: 1rem .4rem 0 1rem;
+      }
+      .resume-box .box-content{
+        font-size: 1.3rem;
+        font-weight: 900;
+        padding: 1rem 2rem .5rem 1rem;
+      }
+}
+
+@media screen and (max-width:600px){
+    .container_resume{
+              flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: .5rem;
+        box-sizing: border-box;
+    }
+    .resume-right-content{
+        width: 80%;
+        margin: 0;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 body {
     margin: 0;
     padding: 0;
@@ -707,20 +908,7 @@ line-height: 1;
   /* -------------------- second media for only max-width for tablet ------ */
   @media (max-width: 995px){
 
-    .container{
-    width: 100%;
-    height: 100vh;
-     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    background: linear-gradient(90deg, rgba(0, 0, 0, 0.781),rgba(0, 0, 0, 0.719)), url("./img/home-img.jpg");
-background-repeat: no-repeat;
-background-position: center;
-background-size: cover;
-margin-bottom: 2rem;
-}
-
+   
    .container-2{
     height: 100%;
    } 
