@@ -708,13 +708,18 @@ line-height: 1;
   @media (max-width: 995px){
 
     .container{
-  
-        background: linear-gradient(to right, rgb(0, 0, 0),transparent), url("./img/Screenshot_20230105-204400-removebg-preview.png");
-    background-repeat: no-repeat;
-    background-size: center;
-    background-position: right;
-
-    }
+    width: 100%;
+    height: 100vh;
+     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.582),rgba(0, 0, 0, 0)), url("./img/home.png");
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+margin-bottom: 2rem;
+}
 
    .container-2{
     height: 100%;
