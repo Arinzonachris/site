@@ -38,6 +38,10 @@ nav{
     align-items: center;
      
 }
+.port img, .port .social-icons {
+    display: none;
+   
+}
  .logo{
     width: 90px;
     max-width: 100%;
@@ -368,7 +372,8 @@ nav ul {
     }
 nav ul li{
     display: block;
-    margin: 25px;
+    margin: 10px;
+    text-align: center;
 }
 nav ul .fa-solid{
     position: absolute;
@@ -380,7 +385,32 @@ nav ul .fa-solid{
     width: 60px;
     max-width: 100%;
 }
-    /* ------------home section ----------- */
+.port {
+    padding: 1rem 4rem 0 2rem;
+   
+    /* background: grey; */
+}
+.port img, .port .social-icons {
+    display: block;
+       }
+       .port img {
+        max-width: 100%;
+        width: 150px ;
+        max-height: 150px;
+        object-position: center;
+        object-fit: cover;
+        border-radius: 50%;
+        border: 10px solid rgb(255, 255, 255);
+        border-style: groove;
+               }
+       .port .social-icons a i{
+        font-size: 1.5rem;
+        margin-top: 2rem;
+               justify-content: center;
+        align-items: center;
+       }
+
+    /* -----------------------------------------------------home section -------------------------- */
     .header h2{
         font-size: 2.5rem;
           }
@@ -692,7 +722,7 @@ line-height: 1;
     }
 
   @media screen and (min-width: 995px){
-
+ 
     
     /* -------------------about section starts ------------------- */
     .about-content h2{
