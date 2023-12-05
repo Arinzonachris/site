@@ -11,7 +11,7 @@ function closemenu() {
 
 // --------------- typing amination ------------
    const textElement = document.getElementById('text');
-const texts = ['Hello there!', "My name is Nnaji Christian Arinze(Arinzona)", "I'm a web designer", 'Developer ', 'Graphic Designer', 'Photo Editor '];
+const texts = ['Hello there!', "My name is Nnaji Christian Arinze(Arinzona)", "I'm a web designer", 'Frontend Developer', 'Graphic Designer', 'Photo Editor '];
 let index = 0;
 let letterIndex = 0;
 let currentText = '';
