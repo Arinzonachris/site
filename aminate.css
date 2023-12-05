@@ -69,7 +69,7 @@
     animation-name: pencentage-skill;
     animation-duration: 4s;
     animation-direction: alternate;
-    animation-iteration-count: 4;
+    animation-iteration-count: infinite;
     transition: all 1s ease-in;
 }
 @keyframes pencentage-skill {
@@ -89,7 +89,7 @@
     animation-name: pencentage-skill-css;
     animation-duration: 4s;
     animation-direction: alternate;
-    animation-iteration-count: 20;
+    animation-iteration-count: infinite;
     transition: all 1s ease-in;
 }
 @keyframes pencentage-skill-css {
@@ -109,7 +109,7 @@ to{
     animation-name: pencentage-skill-js;
     animation-duration: 4s;
     animation-direction: alternate;
-    animation-iteration-count: 4;
+    animation-iteration-count: infinite;
     transition: all 1s ease-in;
 }
 @keyframes pencentage-skill-js {
@@ -128,7 +128,7 @@ to{
     animation-name: pencentage-skill-php;
     animation-duration: 4s;
     animation-direction: alternate;
-    animation-iteration-count: 4;
+    animation-iteration-count: infinite;
     transition: all 1s ease-in;
 }
 @keyframes pencentage-skill-php {
@@ -147,7 +147,7 @@ to{
     animation-name: pencentage-skill-corel;
     animation-duration: 4s;
     animation-direction: alternate;
-    animation-iteration-count: 4;
+    animation-iteration-count: infinite;
     transition: all 1s ease-in;
 }
 @keyframes pencentage-skill-corel {
@@ -166,7 +166,7 @@ to{
     animation-name: pencentage-skill-photo;
     animation-duration: 4s;
     animation-direction: alternate;
-    animation-iteration-count: 4;
+    animation-iteration-count: infinite;
     transition: all 1s ease-in;
 }
 @keyframes pencentage-skill-photo {
