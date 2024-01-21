@@ -149,13 +149,17 @@ font-weight: 800;
   }
 
 @media screen and (max-width:992px) {
+  
     .resume-content{
         margin-right: 3.5rem;
     }
     .resume-box{
+        max-width: 100%;
+        width: 100%;
                margin-bottom: 2rem;
         margin-left: .5rem;
         line-height: 1.1;
+       
       }
       .resume-box .box-year{
         font-size: .7rem;
